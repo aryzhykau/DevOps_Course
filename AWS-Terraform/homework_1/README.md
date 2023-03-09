@@ -24,21 +24,29 @@
 
 ### If you get stucked, open a spoilers, they will contain resources that you will need to create
 <details>
-<summary><b>Required resources</b></summary>
+<summary><b>EC2</b></summary>
 
 - aws_instance
+- aws_key_pair
+</details>
+<details>
+<summary><b>Networking</b></summary>
+
 - aws_vpc
 - aws_subnet
 - aws_route_table
+- aws_route_table_association
 - 2 aws_security_group resources: 1 for loadbalancer and 1 for instance
 - aws_internet_gateway
+</details>
+<details>
+<summary><b>Loadbalancing</b></summary>
+
 - aws_lb
 - aws_lb_target_group
 - aws_lb_target_group_attachment
 - aws_lb_listener
 - aws_lb_listener_rule
-- aws_route_table_association
-- aws_key_pair
 </details>
 
 # Good Luck
