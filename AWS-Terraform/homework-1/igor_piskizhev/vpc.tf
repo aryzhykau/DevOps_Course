@@ -96,7 +96,7 @@ resource "aws_lb_listener" "listener_test" {
   port              = "80"
   protocol          = "HTTP"
   default_action {
-    type = "forward"
+    type             = "forward"
     target_group_arn = aws_lb_target_group.listener_target_group.arn
   }
 }
@@ -110,7 +110,7 @@ resource "aws_lb_target_group" "listener_target_group" {
 resource "aws_lb_target_group_attachment" "test" {
   target_group_arn = aws_lb_target_group.listener_target_group.arn
   target_id        = aws_instance.web.id
-  port             = 80
+  port             = 80                   #optional
 }
 
 
@@ -129,9 +129,9 @@ resource "aws_route_table" "example" {
 
 resource "aws_route_table_association" "assosiate" {
   route_table_id = aws_route_table.example.id
-  subnet_id = aws_subnet.main.id
+  subnet_id      = aws_subnet.main.id
 }
 resource "aws_route_table_association" "sub_assosiate" {
   route_table_id = aws_route_table.example.id
-  subnet_id = aws_subnet.sub-main.id
+  subnet_id      = aws_subnet.sub-main.id
 }
