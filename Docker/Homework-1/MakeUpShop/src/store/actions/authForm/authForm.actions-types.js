@@ -1,0 +1,2 @@
+export const SHOWFORMAUTH = 'SHOWFORMAUTH';
+export const CLOSEFORMAUTH = 'CLOSEFORMAUTH';

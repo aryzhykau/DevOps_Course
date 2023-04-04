@@ -1,0 +1,91 @@
+.section-aboutUs {
+  padding: 50px 0;
+}
+
+.section-aboutUs h1 {
+  font-weight: 400;
+  font-size: 120px;
+  text-align: center;
+  color: #1E1E1E;
+  margin-bottom: 100px;
+}
+
+.aboutus-img img {
+  width: 500px;
+  height: 620px;
+}
+
+.aboutus-img {
+  height: 620px;
+}
+
+.header-mission {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 54px;
+  color: #F7F4F2;
+  width: 600px;
+  margin-bottom: 40px;
+}
+
+.aboutus-inf {
+  display: flex;
+}
+
+.aboutus-mission {
+  background-color: #1E1E1E;
+  padding: 200px 100px;
+}
+
+.aboutus-mission ul li {
+  list-style-type: circle;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #F7F4F2;
+}
+
+.slogan {
+  background-color: #EEE7E3;
+  padding: 100px 150px;
+}
+
+.slogantext {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+  color: #1E1E1E;
+  align-items: center;
+}
+
+.section-benefits {
+  padding: 100px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.benefits-img img {
+  width: 500px;
+}
+
+.benefit-header {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 54px;
+  color: #1E1E1E;
+  margin-bottom: 20px;
+}
+
+.benefit-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1E1E1E;
+  margin-bottom: 20px;
+}
+
+.benefits-ing {
+  width: 650px;
+}

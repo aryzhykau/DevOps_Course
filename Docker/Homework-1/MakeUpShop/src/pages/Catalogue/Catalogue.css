@@ -1,0 +1,21 @@
+.main-catalogue {
+  background-color: #F7F4F2;
+}
+
+.main-catalogue {
+  padding: 50px 150px;
+}
+.main-catalogue h1 {
+  margin-bottom: 50px;
+}
+.section-sidebar {
+  display: flex;
+  background-color: #F7F4F2;
+}
+.header-sidebar {
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 180px;
+  text-align: center;
+  color: #1E1E1E;
+}

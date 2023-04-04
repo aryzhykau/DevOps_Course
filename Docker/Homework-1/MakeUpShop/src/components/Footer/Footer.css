@@ -1,0 +1,21 @@
+footer {
+  background-color: #1E1E1E;
+  margin-top: auto;
+}
+
+.footer-wrapper p{
+  color: #F7F4F2;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 70px;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  align-items: center;
+}

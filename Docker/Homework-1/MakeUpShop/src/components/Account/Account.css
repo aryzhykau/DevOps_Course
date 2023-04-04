@@ -1,0 +1,42 @@
+.account_btn {
+  background: none;
+  border: none;
+  overflow: hidden;
+  display: flex;
+}
+
+ul li {
+  list-style-type: none;
+  
+}
+
+
+.account-wrapper,
+.account-wrapper-regist {
+  position: relative;
+   
+}
+
+.account-wrapper-regist ul  {
+  position: absolute;
+  right: 20%;
+  opacity: 0;
+  z-index: 4;
+  transition: all 0.3s ease-in-out 0.1s;
+}
+
+.account-wrapper-regist:hover ul {
+  opacity: 1;
+}
+
+.account-wrapper ul {
+  position: absolute;
+  right: 20%;
+  opacity: 0;
+  z-index: 4;
+  transition: all 0.3s ease-in-out 0.1s;
+}
+
+.account-wrapper:hover ul {
+   opacity: 1;
+}
