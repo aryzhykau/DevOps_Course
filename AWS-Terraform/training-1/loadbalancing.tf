@@ -1,14 +1,14 @@
 resource "aws_lb" "this" {
   name = "task-1"
   security_groups = [aws_security_group.this.id]
-  subnets = [aws_subnet.this.id]
+  subnets = [aws_subnet.this.id, aws_subnet.sub_this.id]
   internal           = false
   load_balancer_type = "application"
 }
 
 resource "aws_lb_listener" "this" {
   load_balancer_arn = aws_lb.this.arn
-  port = 81
+  port = 80
   protocol = "HTTP"
 
   default_action {
